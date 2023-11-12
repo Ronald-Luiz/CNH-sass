@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import '../styles/main.scss';
 
 //importação das imagens
-import CNH from '../assets/cnh.PNG';
+import CNH from '../assets/cnh.png';
 import truck from '../assets/truck.jpg'
 
 export default function main() {
