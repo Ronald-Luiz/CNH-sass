@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$background_color: black;
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    @include center;
+    flex-direction: column;
+    height: 10vh;
+    background-color: $background_color;
+    color: white;
+
+    ul {
+        @include center;
+        list-style: none;
+    }
+
+    li {
+        margin: 5px;
+    }
+    p{
+        color:red;
+    }
+}

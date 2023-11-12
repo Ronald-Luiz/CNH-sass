@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//variável definindo uma cor
+$background_color: #ffd700;
+$color: white;
+
+//mixin para centralizar
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+header {
+    ul {
+        background-color: $background_color;
+        color: $color;
+        @include right;
+        list-style: none;
+
+        height: 12vh;
+
+    }
+
+    li {
+        text-shadow: 0 0 2px #000;
+        /* horizontal-offset vertical-offset 'blur' colour */
+        -moz-text-shadow: 0 0 2px #000;
+        -webkit-text-shadow: 0 0 2px #000;
+        margin-right: 4vh;
+        font-size: 24px;
+    }
+
+    li:hover {
+        cursor: pointer;
+        transform: scale(110%);
+        transition: 1s;
+        color: blue;
+    }
+
+}
