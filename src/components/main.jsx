@@ -10,11 +10,16 @@ import truck from '../assets/truck.jpg'
 
 export default function main() {
 
+
     useEffect(() => {
-        alert('Seja bem vindo!')
+
+
     }, [])
 
 
+    const alerta = () => {
+        alert('Alerta exibido')
+    }
 
 
     return (
@@ -22,7 +27,7 @@ export default function main() {
             <div>
                 <section>
                     <h1>Seja muito bem vindo!
-                         fique a vontade para aproveitar os nossos planos !</h1>
+                        fique a vontade para aproveitar os nossos planos !</h1>
 
                     <figure>
                         <img className='CNH' src={CNH} alt='' />
@@ -39,7 +44,7 @@ export default function main() {
                         Informações sobre as aulas teóricas e práticas.
                     </p>
 
-                    <button>Categorias de habilitação</button>
+                    <button onClick={alerta}>Categorias de habilitação</button>
                 </section>
             </div>
 
@@ -64,13 +69,7 @@ export default function main() {
                         <button>Teste</button>
                     </section>
 
-
-
-
                 </figure>
-
-
-
 
             </div>
         </main >
