@@ -25,7 +25,7 @@ export default function main() {
     return (
         <main>
             <div>
-                <section>
+                <section className='SectionMain'>
                     <h1>Seja muito bem vindo!
                         fique a vontade para aproveitar os nossos planos !</h1>
 
@@ -35,7 +35,7 @@ export default function main() {
                     </figure>
                 </section>
 
-                <section>
+                <section className='SectionMain'>
                     <p>
                         Processo de Obtenção:
 

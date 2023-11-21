@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+.SectionPayment {
+    margin-top: 50px;
+    margin-left: 25%;
 
-section {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+    h1 {
+        font-size: 30px;
+        width: 750px;
+
+        margin-bottom: 20px;
+    }
+}
+
+
+
+img {
+    width: 750px;
 }
